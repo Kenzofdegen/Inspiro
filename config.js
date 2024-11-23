@@ -1,5 +1,1 @@
-module.exports = {
-    BOT_TOKEN: '7651077429:AAF3m4exmqsNCtpgf7QQXtYTO9_Eds3a9ec',
-    OPENAI_API_KEY: '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',
-    CRYPTOPANIC_API_KEY: '448548516587f25d6f0269a5ce027991ae3cd7bc',
-};
+const openAIKey = process.env.OPENAI_API_KEY;
